@@ -41,6 +41,16 @@ How to access logs in Azure and apply Kusto Query Language to filter and retriev
 <h2> Azure Activity Logs</h2>
 
 <p>
-<img src= "https://github.com/NickHoward1/Azure-Audit-Logs---KQL/blob/c6f3d27f0953a8f5dd9b3f1ab5ad61462ecb46b1/Screenshot%202026-05-15%20at%2010.38.36.png" width="300" height="300"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src= "https://github.com/NickHoward1/Azure-Audit-Logs---KQL/blob/c6f3d27f0953a8f5dd9b3f1ab5ad61462ecb46b1/Screenshot%202026-05-15%20at%2010.38.36.png" width="300" height="300"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src= "https://github.com/NickHoward1/Azure-Audit-Logs---KQL/blob/a3d47c74fab8ac25b0a975db152133f4f342c434/Screenshot%202026-05-15%20at%2011.09.41.png
+" width="300" height="300"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
+
+`// Someone deleting more than 10 resources
+let resource_threshold = 10;
+let time_threshold_in_minutes = 30m;
+AzureActivity
+| where TimeGenerated > ago(time_threshold_in_minutes) 
+| where OperationNameValue endswith "DELETE" and ActivityStatusValue == "Success"
+| summarize number_of_records = count() by Caller, ActivityStatusValue
+| where number_of_records > resource_threshold`
 
