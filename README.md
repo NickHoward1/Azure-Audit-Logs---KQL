@@ -1,7 +1,7 @@
 <h1> Azure Audit Logs - KQL</h1>
 
 <h2>Objective</h2>
-To understand how to access logs in Azure and apply Kusto Query Language to filters and retrieves logs that need to be investigated for deeper analysis<br>
+How to access logs in Azure and apply Kusto Query Language to filter and retrieves logs that need to be investigated for deeper analysis<br>
 
 <h2>Environment</h2>
 <ul>
