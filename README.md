@@ -30,11 +30,11 @@
 
 <p>
 <img src= "https://github.com/NickHoward1/Azure-Audit-Logs---KQL/blob/3e3f8346cbaa7e99f9772793430f088fcba456bb/Screenshot%202026-05-15%20at%2009.28.43.png" width="300" height="300"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src= "https://github.com/NickHoward1/Azure-Audit-Logs---KQL/blob/680d3d445693b5f1981e27b2f91cedd753a51161/Screenshot%202026-05-15%20at%2008.42.36.png" width="300" height="300"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src= "https://github.com/NickHoward1/Azure-Audit-Logs---KQL/blob/f0eea02a6cb8648ea98bc20be859a15597d7f68c/Screenshot%202026-05-15%20at%2009.05.50.png" width="300" height="300" /> 
+<img src= "https://github.com/NickHoward1/Azure-Audit-Logs---KQL/blob/201d3448659ba875b9841834d31bd3a226231856/Screenshot%202026-05-15%20at%2009.32.24.png" width="300" height="300"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src= "https://github.com/NickHoward1/Azure-Audit-Logs---KQL/blob/f0eea02a6cb8648ea98bc20be859a15597d7f68c/Screenshot%202026-05-15%20at%2009.05.50.png" width="300" height="300" /> 
 </p>
 
 
-<b>Screenshot1:</b> Shows how I analyse sign-in logs and use KQL to retrieve events that occurred within the last three hours.<br>
-<b>Screenshot2:</b> Shows how I use KQL to retrieve select fields to narrow my search.<br>
-<b>Screenshot3:</b> Shows how I use distinct to filter any unusual IP addresses that have logged in. 
+<b>Screenshot1:</b> Shows how I use KQL to retrieve all logs from one single IP address.<br>
+<b>Screenshot2:</b> Shows how I can export logs if I need to send the raw data to seniors.<br>
+<b>Screenshot3:</b> Shows how I use adjust time. 
 
