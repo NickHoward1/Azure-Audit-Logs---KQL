@@ -61,5 +61,11 @@ AzureActivity
 <h2>Inspecting NSG Logs</h2>
 
 <p>
-<img src= "https://github.com/NickHoward1/Azure-Audit-Logs---KQL/blob/c6f3d27f0953a8f5dd9b3f1ab5ad61462ecb46b1/Screenshot%202026-05-15%20at%2010.38.36.png" width="300" height="300"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src= "https://github.com/NickHoward1/Azure-Audit-Logs---KQL/blob/a3d47c74fab8ac25b0a975db152133f4f342c434/Screenshot%202026-05-15%20at%2011.09.41.png" width="300" height="300"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src= "" width="300" height="300"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src= "" width="300" height="300"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
+
+<h2>Microsoft Defender for Endpoint Overview and Logs</h2>
+
+<p>
+<img src= "" width="300" height="300"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src= "" width="300" height="300"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
