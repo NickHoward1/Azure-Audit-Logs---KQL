@@ -1,7 +1,7 @@
 <h1> Azure Logging & Monitoring</h1>
 
 <h2>Objective</h2>
-How to access logs in Azure and apply Kusto Query Language to filter and retrieves logs that need to be investigated for deeper analysis<br>
+How to access logs in Azure and apply Kusto Query Language to filter and retrieve logs that need to be investigated for deeper analysis<br>
 
 <h2>Environment</h2>
 <ul>
@@ -45,10 +45,9 @@ How to access logs in Azure and apply Kusto Query Language to filter and retriev
 </p>
 
 
-
 `// Someone deleting more than 10 resources
 let resource_threshold = 10;
-let time_threshold_in_minutes = 30m;
+let time_threshold_in_minutes = 7d;
 AzureActivity
 | where TimeGenerated > ago(time_threshold_in_minutes) 
 | where OperationNameValue endswith "DELETE" and ActivityStatusValue == "Success"
@@ -56,8 +55,7 @@ AzureActivity
 | where number_of_records > resource_threshold`
 
 <b>Screenshot1:</b> Shows how I search for <br>
-<b>Screenshot2:</b> Shows how I break down the KQL to bring back the number of users that successfully deleted resources within the last 7 days.<br>
+<b>Screenshot2:</b> Shows how I break down the KQL to bring back the number of users that successfully deleted resources within the last 7days. This would be useful in the real world to determine any suspicious behaviour for example if a users account has been compromised, attackers potentially would hide their traces deleting logs for persistance or an insider threat may be disgruntled and decided to sabotage the environment<br>
 
-This search query can help me determine 
 
 
