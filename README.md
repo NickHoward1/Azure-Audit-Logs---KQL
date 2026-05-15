@@ -1,4 +1,4 @@
-<h1> Azure Activity Logs - KQL</h1>
+<h1> Azure Logging & Monitoring</h1>
 
 <h2>Objective</h2>
 How to access logs in Azure and apply Kusto Query Language to filter and retrieves logs that need to be investigated for deeper analysis<br>
@@ -13,6 +13,8 @@ How to access logs in Azure and apply Kusto Query Language to filter and retriev
  <li>Carried out various searches using KQL language</li>
  <li>Analysed several logs and navigated my way through important information such as IP, Location, timestamp etc </li>
 </ul>
+
+<h2> Azure Logs & KQL</h2>
 
 <h2>Screenshots</h2>
 
@@ -32,6 +34,7 @@ How to access logs in Azure and apply Kusto Query Language to filter and retriev
 <img src= "https://github.com/NickHoward1/Azure-Audit-Logs---KQL/blob/201d3448659ba875b9841834d31bd3a226231856/Screenshot%202026-05-15%20at%2009.32.24.png" width="300" height="300"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src= "https://github.com/NickHoward1/Azure-Audit-Logs---KQL/blob/201d3448659ba875b9841834d31bd3a226231856/Screenshot%202026-05-15%20at%2009.32.24.png" width="300" height="300" /> 
 </p>
 
+<h2> Azure Activity Logs</h2>
 
 <b>Screenshot1:</b> Shows how I use KQL to retrieve all logs from one single IP address.<br>
 <b>Screenshot2:</b> Shows how I can export logs if I need to send the raw data to seniors.<br>
