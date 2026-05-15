@@ -6,7 +6,6 @@ How to access logs in Azure and apply Kusto Query Language to filter and retriev
 <h2>Environment</h2>
 <ul>
  <li> Azure </li>
-  
 </ul>
 
 <h2>Tasks Completed</h2>
@@ -56,7 +55,9 @@ AzureActivity
 | summarize number_of_records = count() by Caller, ActivityStatusValue
 | where number_of_records > resource_threshold`
 
-<b>Screenshot1:</b> Shows how I use KQL to retrieve all logs from one single IP address.<br>
-<b>Screenshot2:</b> Shows how I can export logs if I need to send the raw data to seniors.<br>
-<b>Screenshot3:</b> Shows how I adjust the time range to make sure the search retrieves the correct data for a certain time period.<br>
+<b>Screenshot1:</b> Shows how I search for <br>
+<b>Screenshot2:</b> Shows how I break down the KQL to bring back the number of users that successfully deleted resources within the last 7 days.<br>
+
+This search query can help me determine 
+
 
