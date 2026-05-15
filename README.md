@@ -40,3 +40,7 @@ How to access logs in Azure and apply Kusto Query Language to filter and retriev
 
 <h2> Azure Activity Logs</h2>
 
+<p>
+<img src= "" width="300" height="300"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
+
