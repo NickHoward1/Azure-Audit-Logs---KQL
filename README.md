@@ -19,5 +19,5 @@
 
 <p>
 <img src= "https://github.com/NickHoward1/Azure-Audit-Logs---KQL/blob/92d1c2938cdf6761f573eed56c7525c55806b515/Screenshot%202026-05-15%20at%2008.33.54.png" width="300" height="300"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src= "" width="250" height="250"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src= "" width="250" height="250" /> 
+<img src= "https://github.com/NickHoward1/Azure-Audit-Logs---KQL/blob/92d1c2938cdf6761f573eed56c7525c55806b515/Screenshot%202026-05-15%20at%2008.33.54.png" width="300" height="300"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src= "" width="250" height="250" /> 
 </p>
