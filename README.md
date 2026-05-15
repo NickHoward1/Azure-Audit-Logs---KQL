@@ -5,7 +5,7 @@ How to access logs in Azure and apply Kusto Query Language to filter and retriev
 
 <h2>Environment</h2>
 <ul>
- <li><Azure/li>
+ <li><Azure</li>
 </ul>
 
 <h2>Tasks Completed</h2>
