@@ -58,4 +58,8 @@ AzureActivity
 <b>Screenshot2:</b> Shows how I break down the KQL to bring back the number of users that successfully deleted resources within the last 7days. This would be useful in the real world to determine any suspicious behaviour for example if a users account has been compromised, attackers potentially would hide their traces deleting logs for persistance or an insider threat may be disgruntled and decided to sabotage the environment<br>
 
 
+<h2>Inspecting NSG Logs</h2>
 
+<p>
+<img src= "https://github.com/NickHoward1/Azure-Audit-Logs---KQL/blob/c6f3d27f0953a8f5dd9b3f1ab5ad61462ecb46b1/Screenshot%202026-05-15%20at%2010.38.36.png" width="300" height="300"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src= "https://github.com/NickHoward1/Azure-Audit-Logs---KQL/blob/a3d47c74fab8ac25b0a975db152133f4f342c434/Screenshot%202026-05-15%20at%2011.09.41.png" width="300" height="300"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
