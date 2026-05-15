@@ -61,13 +61,7 @@ AzureActivity
 <h2>Inspecting NSG Logs</h2>
 
 <p>
-<img src= "https://github.com/NickHoward1/Azure-Audit-Logs---KQL/blob/ae701d33ca47a2ddc088e65524dc00f73df9f399/Screenshot%202026-05-14%20at%2011.04.40.png" width="300" height="300"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src= "" width="300" height="300"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</p>
-
-<h2>Microsoft Defender for Endpoint Overview and Logs</h2>
-
-<p>
-<img src= "" width="300" height="300"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src= "https://github.com/NickHoward1/Azure-Audit-Logs---KQL/blob/20ee7aa07d3bbaf7bf74dbc38ed39b939ad184b8/Screenshot%202026-05-15%20at%2011.59.32.png" width="300" height="300"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src= "https://github.com/NickHoward1/Azure-Audit-Logs---KQL/blob/89109165b6a959c93e880cc2a244a216ff55595e/Screenshot%202026-05-15%20at%2011.56.45.png" width="300" height="300"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src= "https://github.com/NickHoward1/Azure-Audit-Logs---KQL/blob/20ee7aa07d3bbaf7bf74dbc38ed39b939ad184b8/Screenshot%202026-05-15%20at%2011.59.32.png" width="300" height="300"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
 'let my_vm_ip_address = "10.0.0.155";
@@ -75,3 +69,15 @@ AzureNetworkAnalytics_CL
 | where FlowType_s == "MaliciousFlow" and TimeGenerated > ago(5h) and DestIP_s in (my_vm_ip_address)
 | summarize flow_count = count() by SrcIP_s, DestIP_s, FlowType_s
 | order by flow_count'
+
+<b>Screenshot1:</b> Shows the flow types of the logs created<br>
+<b>Screenshot2:</b> Shows the flowcount of malicious flows within the last 5 hours, it picks up the External IP and shows you what IP address they are targeting<br>
+
+
+<h2>Microsoft Defender for Endpoint Overview and Logs</h2>
+
+<p>
+<img src= "" width="300" height="300"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src= "" width="300" height="300"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
+
+
