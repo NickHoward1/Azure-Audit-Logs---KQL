@@ -54,7 +54,7 @@ AzureActivity
 | summarize number_of_records = count() by Caller, ActivityStatusValue
 | where number_of_records > resource_threshold`
 
-<b>Screenshot1:</b> Shows how I search for <br>
+<b>Screenshot1:</b> Shows how I search for users that have deleted resources within the last 30 days<br>
 <b>Screenshot2:</b> Shows how I break down the KQL to bring back the number of users that successfully deleted resources within the last 7days. This would be useful in the real world to determine any suspicious behaviour for example if a users account has been compromised, attackers potentially would hide their traces deleting logs for persistance or an insider threat may be disgruntled and decided to sabotage the environment<br>
 
 
