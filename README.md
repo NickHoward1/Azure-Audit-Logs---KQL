@@ -77,12 +77,12 @@ AzureNetworkAnalytics_CL
 <h2>Microsoft Defender for Endpoint Overview and Logs</h2>
 
 <p>
-<img src= "https://github.com/NickHoward1/Azure-Audit-Logs---KQL/blob/7e9cf28eb58ad52583fbd1f6018615717cc6e3f3/Screenshot%202026-05-16%20at%2010.57.21.png" width="300" height="300"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src= "https://github.com/NickHoward1/Azure-Audit-Logs---KQL/blob/71419ed9ea864a209b48180d64667470a14fe3c7/Screenshot%202026-05-16%20at%2011.09.16.png" width="300" height="300"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src= "https://github.com/NickHoward1/Azure-Audit-Logs---KQL/blob/c0e8f50981a292cb8863e62c56802e5974b18fee/Screenshot%202026-05-16%20at%2011.40.39.png" width="300" height="300"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src= "https://github.com/NickHoward1/Azure-Audit-Logs---KQL/blob/7e9cf28eb58ad52583fbd1f6018615717cc6e3f3/Screenshot%202026-05-16%20at%2010.57.21.png" width="300" height="300"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src= "https://github.com/NickHoward1/Azure-Audit-Logs---KQL/blob/7c96be8f8c0de27637661d2569e8a622cf3590b3/Screenshot%202026-05-16%20at%2012.05.16.png" width="300" height="300"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src= "https://github.com/NickHoward1/Azure-Audit-Logs---KQL/blob/c0e8f50981a292cb8863e62c56802e5974b18fee/Screenshot%202026-05-16%20at%2011.40.39.png" width="300" height="300"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
-<b>Screenshot1:</b> Shows the KQL query searching for Powershell commands within the DecviceEvents<br>
-<b>Screenshot2:</b> Shows the KQL query for distinct to <br>
-<b>Screenshot3:</b> Shows the KQL query for distinct to <br>
+<b>Screenshot1:</b> Shows a table searching for Powershell commands within the DecviceEvents<br>
+<b>Screenshot2:</b> Shows a table for distinct action types within the log, you can then find using "where" for deeper analysis<br>
+<b>Screenshot3:</b> Shows a table the number of failed login from external IP addresses, IoC of a brute force attack <br>
 
 <b>Process:</b> `Microsoft Defender - Investigation & Response - Hunting - Advanced Hunting - Query` 
 
