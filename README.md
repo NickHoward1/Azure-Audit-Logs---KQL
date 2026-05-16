@@ -100,6 +100,38 @@ AzureNetworkAnalytics_CL
  <li>DeviceProcessEvents</li>
 </ul>
 
+<b>Useful Query searching for malicous powershell commands for data exfiltration</b> 
 
+`DeviceProcessEvents
+| where FileName == "powershell.exe"
+| distinct ProcessCommandLine`
+
+A more detailed query which will help search for...<br>
+
+data exfiltration<br>
+command and control (C2)<br>
+payload downloads<br>
+encoded/obfuscated commands<br>
+archive creation before transfer<br>
+suspicious outbound communications<br>
+
+`DeviceProcessEvents
+| where FileName in~ ("powershell.exe","pwsh.exe")
+| where ProcessCommandLine has_any (
+    "Invoke-WebRequest",
+    "curl",
+    "wget",
+    "WebClient",
+    "DownloadString",
+    "UploadString",
+    "Invoke-RestMethod",
+    "ToBase64String",
+    "EncodedCommand",
+    "Compress-Archive",
+    "scp",
+    "ftp"
+)
+| project Timestamp, DeviceName, AccountName, FileName, ProcessCommandLine
+| order by Timestamp desc`
 
 
