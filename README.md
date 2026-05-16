@@ -27,7 +27,7 @@ How to access logs in Azure and apply Kusto Query Language to filter and retriev
 <b>Screenshot2:</b> Shows how I use KQL to retrieve select fields to narrow my search.<br>
 <b>Screenshot3:</b> Shows how I use distinct to filter to return all the unqiue IP addresses that logged in.
 
-<b>process:</b> `Azure - Search log Analytic Workspaces - New Query (KQL mode) - Run Query` 
+<b>Process:</b> `Azure - Search log Analytic Workspaces - New Query (KQL mode) - Run Query` 
 
 <p>
 <img src= "https://github.com/NickHoward1/Azure-Audit-Logs---KQL/blob/3e3f8346cbaa7e99f9772793430f088fcba456bb/Screenshot%202026-05-15%20at%2009.28.43.png" width="300" height="300"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -77,7 +77,28 @@ AzureNetworkAnalytics_CL
 <h2>Microsoft Defender for Endpoint Overview and Logs</h2>
 
 <p>
-<img src= "https://github.com/NickHoward1/Azure-Audit-Logs---KQL/blob/7e9cf28eb58ad52583fbd1f6018615717cc6e3f3/Screenshot%202026-05-16%20at%2010.57.21.png" width="300" height="300"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src= "" width="300" height="300"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src= "https://github.com/NickHoward1/Azure-Audit-Logs---KQL/blob/7e9cf28eb58ad52583fbd1f6018615717cc6e3f3/Screenshot%202026-05-16%20at%2010.57.21.png" width="300" height="300"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src= "https://github.com/NickHoward1/Azure-Audit-Logs---KQL/blob/71419ed9ea864a209b48180d64667470a14fe3c7/Screenshot%202026-05-16%20at%2011.09.16.png" width="300" height="300"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
+
+<b>Screenshot1:</b> Shows the KQL query searching for Device events<br>
+<b>Screenshot2:</b> Shows the KQL query for distinc<br>
+
+<b>Process:</b> `Microsoft Defender - Investigation & Response - Hunting - Advanced Hunting - Query` 
+
+<b>List of querys I can run using KQL on Defender</b> 
+
+<ul>
+ <li>AlertInfo</li>
+ <li>DeviceEvents</li>
+ <li>DeviceFileEvents</li>
+ <li>DeviceInfo</li>
+ <li>AlertInfo</li>
+ <li>DeviceLogonEvents</li>
+ <li>DeviceNetworkEvents</li>
+ <li>DeviceNetworkInfo</li>
+ <li>DeviceProcessEvents</li>
+</ul>
+
+
 
 
